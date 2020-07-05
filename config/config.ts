@@ -7,8 +7,8 @@ export default defineConfig({
     antd: true,
   },
   layout: {
-    name: 'S V G',
-    logo: '/logo.jpg',
+    name: 'SVG',
+    logo: '/logo.png',
     locale: false,
     layout: 'side',
     headerRender: false,
