@@ -8,6 +8,7 @@
     "test": "umi-test",
     "test:coverage": "umi-test --coverage"
   },
+  "homepage": "https://willworkgogogo.github.io/svg/svg/basic-shape/circle",
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
