@@ -2,6 +2,7 @@ import { defineConfig } from 'umi';
 import { routes } from './route';
 
 export default defineConfig({
+  base: '/svg/',
   locale: {
     title: false,
     antd: true,
