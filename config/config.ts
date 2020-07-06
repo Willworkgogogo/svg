@@ -10,7 +10,7 @@ export default defineConfig({
   },
   layout: {
     name: 'SVG',
-    logo: '/logo.png',
+    logo: '/svg/logo.png',
     locale: false,
     layout: 'side',
     headerRender: false,
