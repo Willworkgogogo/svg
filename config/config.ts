@@ -3,7 +3,7 @@ import { routes } from './route';
 
 export default defineConfig({
   base: '/svg',
-  publicPath: '/svg',
+  publicPath: '/svg/',
   locale: {
     title: false,
     antd: true,
