@@ -37,7 +37,7 @@ function getSVGRouteItem(filename: string, name: string): IRoute {
   return {
     path: `${filename}`,
     name,
-    component: '@/svg',
+    component: './svg',
     exact: true,
   };
 }

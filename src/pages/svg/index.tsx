@@ -10,7 +10,7 @@ import styles from './index.less';
 export default () => {
   const history = useLocation();
   // TODO Fixed me, it's bad
-  const [group, type] = location.pathname.replace('/svg/', '').split('/');
+  const [group, type] = location.pathname.replace('/tools/svg/', '').split('/');
   const config: IComponentConfig = require(`../../components/svg/${group}/${type}`);
   const initComponentProps = getComponentProps(config);
   const [componentProps, setComponentProps] = useState(initComponentProps);
