@@ -56,4 +56,8 @@ const svgRoutes = getSvgRoutes();
 
 // TODO 这个路由的写法是否有问题？有没有更好的组织方式
 // 此处想实现统一的路由渲染svg组件页面，但左边栏还是要生成所有标签的路由导航
-export const routes = [...svgRoutes, { path: '/404', component: './404' }] as IRoute[];
+export const routes = [
+  { path: '/', component: './index' },
+  ...svgRoutes,
+  { path: '/404', component: './404' },
+] as IRoute[];

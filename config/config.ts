@@ -2,7 +2,7 @@ import { defineConfig } from 'umi';
 import { routes } from './route';
 
 export default defineConfig({
-  base: '/tools',
+  base: '/tools/',
   publicPath: '/tools/',
   locale: {
     title: false,
